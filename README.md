@@ -14,9 +14,9 @@ No upload. No account. No server. Your files never leave your device.
 
 ## What is MarkDone?
 
-MarkDone is a hub of focused, client-side converters for documents and structured data. Every conversion happens locally in your browser — drafts, README files, business documents, and API payloads stay on your device. There is no upload queue and no backend processing.
+MarkDone is a hub of focused, client-side converters for documents, diagrams, PDFs, and structured data. Every conversion happens locally in your browser — drafts, README files, business documents, YAML configs, and API payloads stay on your device. There is no upload queue and no backend processing.
 
-It's built for notes, AI-generated output, repository docs, prompt files, and any document you'd rather not send to an unknown server.
+It's built for notes, AI-generated output, repository docs, prompt files, config files, and any document you'd rather not send to an unknown server.
 
 ## Converters
 
@@ -28,13 +28,17 @@ It's built for notes, AI-generated output, repository docs, prompt files, and an
 | [Mermaid → PDF](https://markdone.dev/mermaid-to-pdf/) | Render flowcharts, sequence, ER, class, and Gantt diagrams to PDF |
 | [JSON → TOON](https://markdone.dev/json-to-toon/) | Compact JSON into the prompt-friendly TOON format for AI workflows |
 | [TOON → JSON](https://markdone.dev/toon-to-json/) | Convert TOON back into clean, copy-ready JSON |
+| [JSON → YAML](https://markdone.dev/json-to-yaml/) | Turn JSON payloads into readable YAML for configs, CI, Compose, and Kubernetes |
+| [YAML → JSON](https://markdone.dev/yaml-to-json/) | Parse YAML into clean JSON for scripts, APIs, validation, and handoff |
+| [Token Counter](https://markdone.dev/token-counter/) | Estimate tokens locally for prompts, Markdown, JSON, TOON, and other text |
+| Batch conversion | Convert multiple supported files locally and download the results as one ZIP |
 
 ## Why local conversion?
 
 - **Private by default** — your document text is processed in the browser and never uploaded.
 - **No account** — open the page, paste or drop a file, download the result.
 - **Fast** — no upload queue, no server-side job.
-- **Useful for** README files, meeting notes, project briefs, AI-generated Markdown, technical docs, and structured data.
+- **Useful for** README files, meeting notes, project briefs, AI-generated Markdown, technical docs, YAML configs, and structured data.
 
 ## FAQ
 
@@ -47,13 +51,17 @@ No. The core converters are free and require no sign-up.
 **What is TOON?**
 A compact, readable text format for structured data — useful when you want JSON-like information in a shorter form for AI and developer workflows.
 
+**Does MarkDone support YAML?**
+Yes. MarkDone can convert JSON to YAML and YAML to JSON locally in the browser.
+
 ---
 
 ## Links
 
 - 🌐 Website: **[markdone.dev](https://markdone.dev)**
+- 📝 Blog: **[markdone.dev/blog](https://markdone.dev/blog/)**
 - 🔒 [Legal & Privacy](https://markdone.dev/legal/)
 
 ---
 
-*MarkDone — local Markdown, Word, PDF, JSON, and TOON conversion. Made in Vienna.*
+*MarkDone — local Markdown, Word, PDF, JSON, YAML, TOON, and token workflows. Made in Vienna.*
